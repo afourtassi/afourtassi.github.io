@@ -79,6 +79,8 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
+
+
 # Social Sharing
 twitter:
   username               :
@@ -268,6 +270,8 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+scholar:
+  style: modern-language-association
 
 # HTML Compression
 # - https://jch.penibelst.de/
