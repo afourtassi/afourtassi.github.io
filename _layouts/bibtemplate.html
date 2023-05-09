@@ -1,0 +1,90 @@
+---
+---
+
+<style>
+.collapsible, .other {
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .other:hover, .collapsible:hover {
+  background-color: lightgray;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+    
+</style>
+
+
+
+{{reference}}
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<div id="{{key}}-materials">
+
+
+  <ul class="nav nav-pills">
+      
+    {% if entry.abstract %}
+    <a type="button" class="collapsible" >Abstract</a>
+    <div class="content" >
+  <p>{{entry.abstract}}</p>
+</div>
+    {% endif %}
+    <p>&nbsp;&nbsp;&nbsp;</p>
+    
+    {% if entry.link %}
+    <a type="button" class="other" href="{{entry.link}}" target="_blank" style=" color:black;">Paper</a>
+    {% endif %}
+    <p>&nbsp;&nbsp;&nbsp;</p>
+    {% if entry.repo %}
+    <a type="button" class="other" href="{{entry.repo}}" target="_blank" style=" color:black;">Repository</a>
+    {% endif %}
+   
+  </ul>
+    <p><br></p>
+
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>

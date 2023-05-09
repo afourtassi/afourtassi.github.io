@@ -272,6 +272,11 @@ tag_archive:
 
 scholar:
   style: modern-language-association
+  bibliography_template: bibtemplate
+  bibliography_list_tag: ul
+  replace_strings: true
+  query: "@*"
+
 
 # HTML Compression
 # - https://jch.penibelst.de/
