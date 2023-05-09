@@ -276,6 +276,8 @@ scholar:
   bibliography_list_tag: ul
   replace_strings: true
   query: "@*"
+  style: apa
+  locale: en
 
 
 # HTML Compression
