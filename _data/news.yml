@@ -1,0 +1,98 @@
+- date: 07 April 2023
+  title: Our team participates in CogSci Conference  
+  content: "Our team will participate in the 45th Annual Meeting of the Association of Cognitive Science Society this year with 5 computational papers on the development of language structure and/or use in social interaction. Stay tuned!"
+  link: "https://cognitivesciencesociety.org/cogsci-2023/"
+  link-text: "Conference website"
+  
+- date: 01 October 2022
+  title: Two PhD researchers are joining CoCoDev 
+  content: "Excited to announce that our CoCoDev team is growing this year with two new PhD researchers and rising talents in cognitive science and machine learning joining the movement! Welcome Dhia Elhak Goumri and Abhishek Agrawal!"
+  link: "https://cocodev1.gitlab.io/website/members/"
+  link-text: "Link to members"
+ 
+- date: 09 July 2022
+  title: A Talk about CoCoDev research at the intersection of Language acquisition and Artificial Intelligence 
+  content: "Abdellah Fourtassi gave an invited talk at the Pr[AI]rie Institute Colloquim, summarizing the research carried out by our team and illustrating our effort to leverage Artificial Intelligence as a scientific tool to study Language acquisition in its complexity."
+  link: "https://www.youtube.com/watch?v=5vdvSA1nGno"
+  link-text: "Link to video"
+  
+- date: 16 Mar 2022
+  title: A piece on our research in The Conversation
+  content: "Curious about the research we do in CoCoDev? Check out our latest large-public piece in 'The Conversation France' on how children learn the art of conversation across early development."
+  link: "https://theconversation.com/les-bebes-apprennent-lart-de-la-conversation-avant-meme-de-savoir-parler-178658"
+  link-text: "Link to the article"
+
+- date: 27 Fev 2022
+  title: We are hiring two PhD researchers!
+  content: "CoCoDdev offers two fully-funded PhD research positions (one with a moldeling focus and one with an experimpental focus). The PhD researchers will work in the framework of our ANR grant MACoMiC (Mastering the Art of Conversation in Middle Childhood). Please spread the word!"
+  link: "https://cocodev1.gitlab.io/website/contact/"
+  link-text: "More information"
+
+
+- date: 2 Fev 2022
+  title: Two international Early Career Researcher join CoCoDev
+  content: "Our CoCoDev team welcomes two new members: Jing Liu joins from Radboud University after being admitted to Honor Academy for her master’s, and Francesco Cabiddu, a PhD researcher visit us from Cardiff University after obtaining the prestigious Experimental Psychology Society's study visit scheme."
+
+  
+- date: 28 Oct 2021
+  title: Abdellah Fourtassi Speaks at the OECD meeting on AI and the future of science
+  content: "Abdellah Fourtassi, a member of CoCoDev and currently a visiting researcher at INRIA Paris, was invited to speak at the OECD international meeting on 'AI and the productivity of science'. Abdellah will give a joint talk with Justine Cassell on the role of AI in building explanatory, quantitative theories of children’s learning and cognitive development."
+  link: "https://www.oecd.org/sti/inno/ai-productivity-of-science.htm"
+  link-text: "More information"
+  
+- date: 08 Sep 2021
+  title: Floor Meewis joins CoCoDev as Ph.D. researcher
+  content: "Floor did her master training in Behavioural ecology at Utrecht University in the Netherlands, during which she mainly studied primate vocal abilities. She joined CoCoDev under the supervision of Isabelle Dautriche to study the cognitive components that are necessary for linguistic computations (e.g., event representation and compositionality) and to investigate whether these components are already present in pre-lingual infants and baboons."
+  
+- date: 01 Sep 2021
+  title: Kübra Bodur joins CoCoDev as Ph.D. researcher
+  content: "Kübra won a competitive scholarship (the ministerial PhD grant) to join CoCoDev as a PhD researcher under the supervision of Christine Meunier. Kübra did her master thesis at CoCodev on non-verbal behavior in face-to-face conversation. She is also interested in speech reduction in dialogues from childhood to adulthood."
+  
+- date: 26 Jul 2021
+  title: CoCoDev presents 3 papers at CogSci
+  content: "We are happy to present 3 papers at the Annual Meeting of the Cognitive Science Society. The first paper is about a 'Large-scale study of speech acts’ development using automatic labelling' by Nikolaus, M., Maes, J., Auguste, J., Prevot, L., & Fourtassi, A.  The second is about 'Modeling speech act development in early childhood: the role of frequency and linguistic cues' by Nikolaus, M., Maes, J., & Fourtassi, A. The third paper studies 'The Role of Low-level Linguistic Tasks for Reading time Prediction' by Dary, F., Fourtassi, A., & Nasr, A."
+
+- date: 12 Jul 2021
+  title: A member of CoCoDev won a competitive ANR grant!
+  content: "We are pleased to announce that Abdellah Fourtassi, a member of CoCoDev won a competitive grant from the French National Research Agency (ANR). The funding (about $340k) will be used to study the 'Mastery of the Art of Conversation in Middle Childhood'. The grant will starts in April 2022 and will allow us, among other things, to welcome two new PhD researchers to CoCoDev. The Ph.D. positions will be announced closer to the starting date. Stay tuned!"
+
+- date: 19 Jun 2021
+  title: CoCoDev presents 2 papers at CMCL
+  content: "CoCoDev will present 2 papers at the Workshop on Cognitive Modeling and Computational Linguistics (CMCL). The first paper is about 'Evaluating the Acquisition of Semantic Knowledge from Cross-situational Learning in Artificial Neural Networks' by Nikolaus, M. & Fourtassi, A. The second is a contribution to a shared task on predicting eye movement during reading using deep learning models by Dary, F.,  Nasr, A., & Fourtassi, A. Our  paper was ranked second (in terms of performance) out of a total of 30 submissions from different international teams."
+  
+- date: 1 Jun 2021
+  title: Welcoming summer interns 
+  content: "This summer, we work with three students on various projects. Yassine Laribi and Ayoub Rochdy will be both joining from Ecole Centrale Marseille and Fatima Kassim from the Cognitive Science master (MASCO). Yassine will be working on an online platform for measuring children's social-cognitive skills in an unmoderated fashion. Ayoub will use deep learning algorithms to model children's turn-taking in face-to-face conversation with caregivers. Fatima will study the development of non-verbal cues in children's feedback signaling (e.g. head nods)."
+
+- date: 1 Feb 2021
+  title: Welcoming master students of 2021
+  content: "We welcome three master students who will be preparing their thesis at CoCoDev. Kübra Bodur, M2 from the Cognitive Science master ('MASCO'), will study non-verbal behavior in child-caregiver face-to-face conversation in middle childhood. Gabriel Meunier, M2 from the Artificial Intelligence master ('IAAA'), will work on developing an algorithm for laughter detection in children's speech. Maureen Astier-Perret will be working on the communicative function of several body movements in baboons' interactions."
+  
+- date: 19 Nov 2020
+  title: CoCoDev presents 2 papers at CMCL
+  content: "CoCoDev will present 2 papers at the Workshop on Cognitive Modeling and Computational Linguistics (CMCL). The first paper is about how 'Word Co-occurrence in Child-Directed Speech Predicts Children’s Free Word Associations' by Fourtassi, A., and the second is about the 'Development of Multi-level Linguistic Alignment in Child-Adult Conversations' by Misiek, T., Favre, B., & Fourtassi, A. Both papers can be found in the publication section of this website."
+  
+- date: 1 Oct 2020
+  title: Mitja Nikolaus joins CoCodev as a Ph.D. researcher 
+  content: "Mitja is a computational cognitive scientist. He did his master’s in the NLP group at the University of Copenhagen. He is interested in developing computational models of children's communicative coordination and its relation to early language acquisition."
+  
+- date: 1 Oct 2020
+  title: Chiara Mazzocconi joins CoCodev as a Postdoc
+  content: "Chiara did her Ph.D. in Paris Diderot University with Jonathan Ginzburg on the development of laughter as a communicative/pragmatic mechanism. She will continue in this line of research using interdisciplinary tools."
+
+- date: 9 Sep 2020
+  title: Two members of CoCoDev won competitive ANR grants!
+  content: "We are pleased to annouce that Isabelle Dautriche and Clément François, both members of CoCoDev won competitive grants from the French National Research Agency (ANR). The first funding (about $396k) will be used to study the 'The biological origin of linguistic structures.' The second (about $306k) will be used to study the link between speech perception and vocabulary acquisition in infancy."
+  
+- date: 01 Jun 2020
+  title: Welcoming summer interns 
+  content: "This summer, 3 master students will be doing summer research internships with us. Juliette Maes will be working on a computational model of children's speech acts' prediction from textual data. Charlie Hallart and Morgane Peirolo will both be working on the study of question-asking and -answering behavior in early childhood."
+  
+- date: 1 May 2020
+  title: Welcoming master students of 2020
+  content: "This year, two students from the Cognitive Science Master (MASCO) will be preparing their thesis at CoCoDev. Thomas Misiek (M1) will be working on the development of linguistic alignment across cultures using NLP tools and cross-linguistic Data from CHILDES. Pelayo Mencos (M2) will be working on comparing linguistic alignment in typical vs. atypical populations."
+
+- date: 1 May 2020
+  title: CoCoDev is born!
+  content: "CoCoDev (for Computational Communication & Development) is a new interdisciplinary research group. It is a Project-team within the Institute of Language, Communication and the Brain (ILCB) and involves researchers across three different research units at Aix-Marseille university: LIS (computer science), LPL (linguistics), and LPC (Cognitive psychology)."
+

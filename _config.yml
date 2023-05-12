@@ -16,16 +16,17 @@ minimal_mistakes_skin    : "air" #"default" , "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Academic Website"
+title                    : "Learning & Interaction"
+                            
 title_separator          : ""
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Research on Children's Development"
 name                     : "Abdellah Fourtassi"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : #"/assets/images/logo.jpeg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,33 +108,26 @@ analytics:
 # Site Author
 author:
   name             : "Abdellah Fourtassi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Academic Website Academic Website Academic Website Academic Website Academic Website"
-  location         : "France"
-  email            :
+  avatar           : "/assets/images/bio.jpeg"
+  bio              : "Researcher in Cognitive Science. I use Machine Learning to study Children's Communicative Development in — and through — Social Interactions."
+  email            : #"abdellah.fourtassi@univ-amu.fr"
+  location         : Aix-Mareille University
   links:
+  
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "abdellah.fourtassi@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "abdellah.fourtassi@univ-amu.fr"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://twitter.com/Adinseg"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/abdellah-fourtassi-9430b0ba/"
 
 # Site Footer
 footer:
   links:
+
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -232,6 +226,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-twitter-plugin
 
 # mimic GitHub Pages with --safe
 whitelist:

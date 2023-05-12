@@ -5,3 +5,4 @@ gem "minimal-mistakes-jekyll"
 gem "kramdown-parser-gfm"
 gem "webrick", "~> 1.8"
 gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'jekyll-twitter-plugin'
