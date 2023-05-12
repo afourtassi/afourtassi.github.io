@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 author_profile: true
-toc: true
+classes: wide
 permalink: /publications/
 ---
 

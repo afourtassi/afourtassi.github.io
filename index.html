@@ -1,35 +1,82 @@
 ---
 layout: home
 author_profile: true
+classes: wide
 ---
 
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<div class="row mb-4 row-flex">
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  height:600px;
+}
 
-    <div class="col-md-8 mb-2" id="news-col">
-      <!-- <div class="card h-100"> -->
-	<div class="card" style="height:600px;">
-        <div class="card-title container-fluid m-0">
-          <h5 class="font-weight-bold mt-2 ml-2 mr-2 mb-2">News</h5>
-        </div>
-    <div class="card-body container-fluid overflow-auto mt-0">
-  {% assign currentsorted = site.data.news %}            
-  {% for news in currentsorted %}
-    {% include news.md %}
-  {% endfor %}
- 	</div>
-        
-      </div>
-    </div>
+.left {
+  width: 70%;
+  padding: 20px;
+}
 
-<div class="col-md-4 mb-2">
-  <div class="card" style="height:600px;">
+.right {
+  width: 30%;
+  padding: 2px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<div class="row">
+  <div class="column left" >
+              
+  I am currently Maître de Conférences (Assistant Professor with tenure) of computer science at Aix-Marseille University.
+      </br></br>
+  I am also a research fellow at the Institute of Language, Communication and the Brain (<a href="ilcb.fr">ILCB</a>), of which I am also member of the governing board. 
+      </br></br>
+  I am the founder and director of the Computational  Communicative Development project-team (<a href="cocodev.fr">CoCoDev</a>), where we study children's communcative development in natural, interactive, and multimodal conexts.
+        </br></br>
+  I have a background in Mathematics and Physics (Ecole Polytechnique, Paris), in Computational Cognitive Science (Ecole Normale Supérieure, Ulm), and in Experimental Psychology (Stanford University).
+      
+  </div>
+  <div class="column right" >
+    <div class="card" style="height:600px;">
     <div class="card-body">
       <a class="twitter-timeline" data-lang="' + config.lang + '" data-height="550" href="https://twitter.com/Adinseg">Tweets by CoCoDev</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
+  </div>
 </div>
 
-</div>
+<h2>Representative publications</h2>
+ 	
+ {% bibliography --query @*[year=2022] %}
+
+
+<!--
+	<div class="card" style="height:600px;width: 60%;">
+    <div class="card-body">
+  {% assign currentsorted = site.data.news %}            
+  {% for news in currentsorted %}
+    {{ news.content }}
+  {% endfor %}
+ 	</div>
+      </div>
+
+    
+  <div class="card" style="height:600px; width: 30%;">
+    <div class="card-body">
+      <a class="twitter-timeline" data-lang="' + config.lang + '" data-height="550" href="https://twitter.com/Adinseg">Tweets by CoCoDev</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+-->
+
 
