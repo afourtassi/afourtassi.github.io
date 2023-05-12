@@ -31,6 +31,12 @@ classes: wide
   display: table;
   clear: both;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 </style>
 
 <div class="row">
@@ -46,7 +52,7 @@ classes: wide
       
   </div>
   <div class="column right" >
-    <div class="card" style="height:600px;">
+    <div class="card" >
     <div class="card-body">
       <a class="twitter-timeline" data-lang="' + config.lang + '" data-height="550" href="https://twitter.com/Adinseg">Tweets by CoCoDev</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
