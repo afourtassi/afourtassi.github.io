@@ -61,7 +61,10 @@ for (i = 0; i < coll.length; i++) {
     </div>
     {% endif %}
   {% if entry.link %}
-    <a type="button1" class="other" href="{{entry.link}}" target="_blank" style=" color:black;text-decoration:none;">Paper</a>
+    <a type="button1" class="other" href="{{entry.link}}" target="_blank" style=" color:black;text-decoration:none;">Link</a>
+    {% endif %}
+    {% if entry.preprint %}
+    <a type="button1" class="other" href="{{entry.preprint}}" target="_blank" style=" color:black;text-decoration:none;">Preprint</a>
     {% endif %}
     {% if entry.repo %}
     <a type="button1" class="other" href="{{entry.repo}}" target="_blank" style=" color:black;text-decoration:none;">Repo</a>

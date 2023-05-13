@@ -24,7 +24,7 @@ permalink: /publications/
 
 <center><h3 style="color:#0092ca;">2020</h3> </center>
 
-{% bibliography --query @*[year=2021] %}
+{% bibliography --query @*[year=2020] %}
 
 <center><h2 style="color:#0092ca;">2019 and older </h2> </center>
 
