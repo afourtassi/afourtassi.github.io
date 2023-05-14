@@ -10,11 +10,14 @@ permalink: /publications/
      margin: 0 auto;
      width: 100%;
      text-align: justify;
+     padding: 40px;
 }
 </style>
 
+<hr>
+
 <div class="center-div">
-    <hr>
+
 <center><h2 style="color:#0092ca;">In progress</h2> </center>
 
 {% bibliography --query @*[year=under review] %}
