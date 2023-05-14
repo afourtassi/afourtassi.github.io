@@ -2,10 +2,18 @@
 layout: archive
 title: "Publications"
 author_profile: true
-classes: wide
 permalink: /publications/
 ---
 
+<style>
+.center-div {
+     margin: 0 auto;
+     width: 600px;
+     text-align: justify;
+}
+</style>
+
+<div class="center-div">
 <center><h2 style="color:#0092ca;">In progress</h2> </center>
 
 {% bibliography --query @*[year=under review] %}
@@ -29,3 +37,5 @@ permalink: /publications/
 <center><h2 style="color:#0092ca;">2019 and older </h2> </center>
 
 {% bibliography --query @*[year<2020] %}
+
+</div>
