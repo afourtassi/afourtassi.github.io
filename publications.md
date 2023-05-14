@@ -8,7 +8,7 @@ permalink: /publications/
 <style>
 .center-div {
      margin: 0 auto;
-     width: 600px;
+     width: 100%;
      text-align: justify;
 }
 </style>
