@@ -19,9 +19,11 @@ permalink: /publications/
 
 <div class="center-div">
 
+<!--
 <center><h2 style="color:#0092ca;">In progress</h2> </center>
-
 {% bibliography --query @*[year=under review] %}
+-->
+
 
 
 <center><h2 style="color:#0092ca;">2024</h2> </center>
