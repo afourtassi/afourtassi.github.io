@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Learning in Interaction"
                             
 title_separator          : ""
-subtitle                 : "Research on Children's Development"
+subtitle                 : #"Research on Children's Development"
 name                     : "Abdellah Fourtassi"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
