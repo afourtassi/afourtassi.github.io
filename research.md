@@ -82,7 +82,7 @@ Automated tools enable us to analyze these interactions on a large scale as they
 {% bibliography --query @*[section=social1] %}
 
 
-We investigate how these communication skills directly influence the effectiveness of language learning, with a particular focus on the critical role of social feedback in the learning process:
+We investigate how these communication skills directly influence the effectiveness of language learning. In particular, we use Reinforcement Learning methods to test the role of social feedback in the learning process:
 
 
 <br>
