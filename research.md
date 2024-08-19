@@ -31,10 +31,10 @@ This approach is essential to improve the ecological validity of our scientific 
 <br><br>
 My team and I investigate the key elements that shape how children learn language: sensory input, cognitive mechanisms, and social interactions.
 <br><br>
-<!--
+
 <div class="center-div">
 <img src="/assets/images/research.png" >
-</div> -->
+
 
 
 <center><h2>Sensory input</h2> </center>
