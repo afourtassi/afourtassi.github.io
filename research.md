@@ -72,7 +72,7 @@ We also investigate how language is refined over months and years of development
 <center><h2>Social interactions</h2> </center>
 
 
-The transformation of sensory input into linguistic knowledge is often guided by social interactions. We study early interactions between children and caregivers to understand how and when communicative skills emerge and how these skills specifically support language acquisition.
+The transformation of sensory input into linguistic knowledge is facilitated by social interactions. We study early interactions between children and caregivers to understand how and when communicative skills emerge and how these skills specifically support language acquisition.
 
 <br><br>
 
