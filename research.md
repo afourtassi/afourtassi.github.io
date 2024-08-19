@@ -29,12 +29,12 @@ My research program focuses on scaling the study of children’s language develo
 This approach is essential to improve the ecological validity of our scientific theories and to facilitate their translation into practical tools that support better language learning outcomes.
 
 <br><br>
-My team and I investigate the key elements that shape how children learn language: sensory input, cognitive mechanisms, and social interactions,  as illustrated in this Figure:
+My team and I investigate the key elements that shape how children learn language: sensory input, cognitive mechanisms, and social interactions.
 <br><br>
-
+<!--
 <div class="center-div">
 <img src="/assets/images/research.png" >
-</div>
+</div> -->
 
 
 <center><h2>Sensory input</h2> </center>
