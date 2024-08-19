@@ -38,7 +38,7 @@ My team and I investigate the key elements that shape how children learn languag
 
 
 <center><h2>Sensory input</h2> </center>
-
+<br>
 Language development starts with the sensory experiences of children—the words they hear and the things they see. We collect and analyze data from these experiences to understand how their richness influences learning.
 <br><br>
 One line of inquiry is exploring how children learn linguistic structures like sounds and grammar from natural speech. We specifically focus on how they manage to overcome the variability and noise to form stable mental representations: 
@@ -54,7 +54,7 @@ Additionally, we examine how sensory input helps children map language onto conv
 
 
 <center><h2>Cognitive mechanisms</h2> </center>
-
+<br>
 While rich sensory input is crucial, children's cognitive abilities determine how effectively this input is transformed into linguistic knowledge.
 <br><br>
 
@@ -70,7 +70,7 @@ We also investigate how language is refined over months and years of development
 
 
 <center><h2>Social interactions</h2> </center>
-
+<br>
 
 The transformation of sensory input into linguistic knowledge is facilitated by social interactions. We study early interactions between children and caregivers to understand how and when communicative skills emerge and how these skills specifically support language acquisition.
 
