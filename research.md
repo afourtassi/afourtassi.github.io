@@ -34,7 +34,7 @@ My team and I investigate the key elements that shape how children learn languag
 
 <div class="center-div">
 <img src="/assets/images/research.png" >
-
+</div>
 
 
 <center><h2>Sensory input</h2> </center>
