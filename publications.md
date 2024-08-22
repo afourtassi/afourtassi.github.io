@@ -6,6 +6,16 @@ classes: wide
 permalink: /publications/
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-31RY8M035W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-31RY8M035W');
+</script>
+
 <style>
 .center-div {
      margin: 0 auto;

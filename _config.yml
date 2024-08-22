@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" #"default" , "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Learning in Interaction"
+title                    : "A. Fourtassi's webpage"
                             
 title_separator          : ""
 subtitle                 : #"Research on Children's Development"
@@ -101,8 +101,10 @@ social:
 analytics:
   provider               : "google" #, "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-37679985-1
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
+
+
 
 
 # Site Author
