@@ -34,7 +34,9 @@ permalink: /publications/
 {% bibliography --query @*[year=under review] %}
 -->
 
+<center><h2 style="color:#0092ca;">2025</h2> </center>
 
+{% bibliography --query @*[year=2025] %}
 
 <center><h2 style="color:#0092ca;">2024</h2> </center>
 
