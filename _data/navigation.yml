@@ -6,8 +6,6 @@ main:
     url: /publications/
   - title: "CV"
     url: /assets/files/cv.pdf
-  - title: "Join"
-    url: /assets/files/M2Internship.pdf
   - title: "Team"
     url: "http://cocodev.fr/"
  
