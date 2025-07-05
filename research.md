@@ -33,7 +33,7 @@ permalink: /research/
 {% bibliography --query @*[year=under review] %}
 -->
 
-My research program focuses on scaling the study of children’s language development to reflect the complexity of real-world learning environments, leveraging Big Data and cutting-edge Machine Learning. 
+My research program focuses on scaling the study of children’s language development to reflect the complexity of real-world learning environments, leveraging Big Data and Machine Learning. 
 <br><br>
 This approach is essential to improve the ecological validity of our scientific theories and to facilitate their translation into practical tools that support better language learning outcomes.
 
