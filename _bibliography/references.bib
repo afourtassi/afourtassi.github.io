@@ -5,7 +5,24 @@ References
 ==========
 
 
-
+    
+@article{Agrawal2025,
+	author = {Agrawal, A. and Favre, B. and Fourtassi, A.},
+	title = {Mapping the Communicative Landscape of Early Child-Caregiver Dialogue},
+	year = {under review},
+	abstract = {Early linguistic interaction plays a key role in children's social and cognitive development. However, there is a lack of quantitative studies that offer a comprehensive insight into the communicative landscape that characterizes child-caregiver dialogues.
+    In this study, we apply advanced Natural Language Processing (NLP) techniques to analyze multiple corpora,  encompassing data from N = 609 individual children (aged 20 to 32 months old), over 2,500 conversations and around 700k pairs of child-caregiver interactive turns. Our methodology combined models for communicative intent inference and models for semantic coherence evaluation, providing a comprehensive analysis of linguistic coordination and its emergence in infancy. We found that both focused turn pairs with clear communicative intents (e.g., question-response) and open turn pairs (e.g., statement-statement) were common in structuring interactions. However, these pairs varied significantly regarding their semantic coherence (e.g., open pairs were generally less coherent) and role (e.g, caregivers initiating most of the focused pairs). Additionally, we document developmental shifts in intent expression and, interestingly, a dissociation between frequency vs. coherence. The broad impact of this study lies in establishing a solid, bottom-up empirical foundation for developing ecological theories of communicative development.},
+    link= {https://osf.io/preprints/psyarxiv/pkdq9_v1}
+    }
+    
+    
+@article{Fourtassi2025a,
+	author = {Abdellah Fourtassi and Zihan Xu},
+	title = {Initiating vs. Responding to Questions in
+    Child-caregiver Spontaneous Conversations Across Preschool.},
+	year = {under review},
+	abstract = {The paper investigates the development across preschool of early conversational coordination, focusing on children's ability to coordinate behavior in Question-Response-Follow-up sequences (QRF), both as Initiators and Responders. We analyzed a longitudinal French corpus of 4 child-caregiver dyads (2 female children) and more than 5,000 questions. All children provided coordinated responses when in the responder role and used appropriate follow-ups when in the initiator role, starting from around  2 years of age. Some of these skills (in the responder role) improved significantly across the preschool period, while others (in the initiator role) continued to show some qualitative differences with adults.}
+    }
 
 @article{Nikolaus2025,
 	author = {Mitja Nikolaus and Abdellah Fourtassi},
@@ -24,39 +41,33 @@ References
 
     }
     
-@inproceedings{Agrawal2025sem,
-	author = {Agrawal, A. and Favre, B. and Fourtassi, A.},
-	title = {Identifying Repair Opportunities in Child-Caregiver Interactions},
+    @article{Cabiddu2025,
+	author = {Francesco Cabiddu and Mitja Nikolaus and Abdellah Fourtassi},
+	title = {Comparing children and large language models in word sense disambiguation: Insights and challenges},
+	volume = {5},
 	year = {2025},
-	abstract = {Identifying and repairing breakdowns in communication is critical for maintaining and developing common ground between interlocutors. In the context of child-caregiver interaction (the focus of the current study), parents' repair has an important role both for scaffolding early communication and for providing a learning signal. Developmental studies have typically focused on linguistic markers of parents' repair and repair initiation (e.g., clarification request); here, we analyze such instances relative to overall repair opportunities, allowing us to quantify the extent to which parents seize repair opportunities. We analyzed a corpus of 15 child-caregiver dyads, where children were 7 to 11 years old. Using manual annotation, we identified the repair opportunities presented by the child and found that the caregivers initiated repair in only a small subset of the cases where a repair opportunity presented itself. We further tasked several large language models (LLMs) to test their capacity to recognize repair opportunities in children's utterances and found their performance to be lacking compared to human annotators. This study provides an initial exploration that is valuable both for developmental studies and for researchers aiming to improve child–machine interaction for applications such as personalized education.},
-    booktitle={Proceedings of the Workshop on the Semantics and Pragmatics of Dialogue (SemDial)}
-    }
-    
-    
-@article{Agrawal2025,
-	author = {Agrawal, A. and Favre, B. and Fourtassi, A.},
-	title = {Mapping the Communicative Landscape of Early Child-Caregiver Dialogue},
-	year = {under review},
-	abstract = {Early linguistic interaction plays a key role in children's social and cognitive development. However, there is a lack of quantitative studies that offer a comprehensive insight into the communicative landscape that characterizes child-caregiver dialogues.
-    In this study, we apply advanced Natural Language Processing (NLP) techniques to analyze multiple corpora,  encompassing data from N = 609 individual children (aged 20 to 32 months old), over 2,500 conversations and around 700k pairs of child-caregiver interactive turns. Our methodology combined models for communicative intent inference and models for semantic coherence evaluation, providing a comprehensive analysis of linguistic coordination and its emergence in infancy. We found that both focused turn pairs with clear communicative intents (e.g., question-response) and open turn pairs (e.g., statement-statement) were common in structuring interactions. However, these pairs varied significantly regarding their semantic coherence (e.g., open pairs were generally less coherent) and role (e.g, caregivers initiating most of the focused pairs). Additionally, we document developmental shifts in intent expression and, interestingly, a dissociation between frequency vs. coherence. The broad impact of this study lies in establishing a solid, bottom-up empirical foundation for developing ecological theories of communicative development.},
-    link= {https://osf.io/preprints/psyarxiv/pkdq9_v1}
-    }
-    
+	issue = {1},
+	abstract = {Understanding how children process ambiguous words is a challenge because sense disambiguation is a complex task that depends on both bottom-up and top-down cues. Here, we seek insight into this phenomenon by investigating how such a competence might arise in large distributional learners (Transformers) that purport to acquire sense representations from language input in a largely unsupervised fashion. We investigated how sense disambiguation might be achieved using model representations derived from naturalistic child-directed speech. We tested a large pool of Transformer models, varying in their pretraining input size/nature as well as the size of their parameter space. Tested across three behavioral experiments from the developmental literature, we found that these models capture some essential properties of child sense disambiguation, although most still struggle in the more challenging tasks with contrastive cues. We discuss implications for both theories of word learning and for using Transformers to study child language processing.},
+	journal = {Language Development Research},
+    link = {https://ldr.lps.library.cmu.edu/article/718/galley/586/view/},
+    repo={https://zenodo.org/records/8200803}
+}
 
-@inproceedings{Liu2025,
-	author = {Liu, Jing and Fourtassi, Abdellah},
-	title = {Benchmarking LLMs for Mimicking Child-Caregiver Language in Interaction},
-	year = {2025},
-	abstract = {Large Language Models (LLMs) can generate human-like dialogues, yet their ability to simulate early child-adult interactions remains largely unexplored. In this paper, we examined how effectively LLMs can capture the distinctive features of child-caregiver language in interaction, using both static and interactive benchmarking methods. We found that state-of-the-art LLMs like Llama 3 and GPT-4o can approximate child-caregiver dialogues at the word and utterance level, but they struggle to reproduce the child and caregiver's discursive patterns, exaggerate alignment, and fail to reach the level of diversity shown by humans. The broader goal of this work is to initiate the development of a comprehensive benchmark for LLMs in child-oriented applications.},
-    booktitle={Proceedings of the Workshop on the Semantics and Pragmatics of Dialogue (SemDial)}
-    }
-    
-    @article{Chiara2025,
+
+  @article{Chiara2025,
 	author = {Mazzocconi, C. and O'Brien, B. and Bodur, K. and Fourtassi, A},
 	title = {Do children laugh like their parents? Conversational laughter mimicry occurrence and acoustic alignment in middle-childhood},
 	year = {2025},
 	abstract = {Laughter has been shown to be informative about the pragmatic development of preschool children. The current paper investigates laughter mimicry and acoustic alignment in middle childhood in a corpus of parent-child (N=16) and parent-adult (N=8) computer-mediated conversations. We performed both distributional and acoustic analyses. While there were no significant differences in terms of laughter frequency between children and adults, laughter mimicry was significantly less frequent in parent-child than in parent-adult interactions, although balanced at an intra-dyad level. A spectro-temporal modulation (STM) analysis revealed that in children, mimicking laughter is characterised by higher STMs than Isolated laughter. On the other hand, in adult, Mimicking and Isolated laughter do not differ in terms of STMs. Our study forms a basis for discussion on current theoretical models of alignment, its interplay with interactional dynamics, and the entanglement of laughter use with pragmatic development.},
     journal ={Journal of Nonverbal Behavior}
+    }
+    
+    @article{Gupta2025,
+	author = {Shreejata Gupta and Chiara Mazzocconi and Abdellah Fourtassi},
+	title = {Toward a Child-Centred, Interactive Approach to Multimodal Language Development. A commentary on Karadöller, Sümer and Özyürek},
+	year = {2025},
+	abstract = {Karadöller et al. highlight the role of multimodality in first language acquisition, emphasizing pointing and iconic gestures. While their approach advances the field, we argue that it overlooks two crucial dimensions: (1) a child-centred perspective that acknowledges the full spectrum of early multimodal signals—including body movements, facial expressions, prosody, and non-speech vocalizations—and recognises it as an integral part of, and not just precursors to, language; and (2) an interactive perspective that recognizes language development as inherently social, shaped by dynamic caregiver-infant exchanges.},
+    journal = {First Language},
     }
     
     @ARTICLE{Agee2025b,
@@ -68,37 +79,39 @@ References
     abstract = {Social learning, the acquisition of new information or behavior through observation of or instruction by other organisms, has been observed in a host of species (Laland, 2004; Brown and Laland, 2003; Wilkinson et al., 2010). Humans in particular rely heavily on social learning strategies to acquire and distribute information between individuals and across generations (Dean et al., 2014). Moreover, access to social learning opportunities is essential for normative behavioral and cognitive development, as is evidenced by the persistent deficits observed in individuals deprived of social contact in early life. In accordance with the clear importance of this information transfer method, much research has been dedicated to understanding social learning at a mechanistic level (Monfils and Agee, 2019; Olsson et al., 2020; Ollendick and King, 1991; Heyes, 2012). In this editorial, we feature a collection of recent articles focused on further developing our understanding of the behavioral and/or biological underpinnings of social learning.},
     link={https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1566408}
     }
+    
 
-    
-    
-@article{Fourtassi2025a,
-	author = {Abdellah Fourtassi and Zihan Xu},
-	title = {Initiating vs. Responding to Questions in
-    Child-caregiver Spontaneous Conversations Across Preschool.},
-	year = {under review},
-	abstract = {The paper investigates the development across preschool of early conversational coordination, focusing on children's ability to coordinate behavior in Question-Response-Follow-up sequences (QRF), both as Initiators and Responders. We analyzed a longitudinal French corpus of 4 child-caregiver dyads (2 female children) and more than 5,000 questions. All children provided coordinated responses when in the responder role and used appropriate follow-ups when in the initiator role, starting from around  2 years of age. Some of these skills (in the responder role) improved significantly across the preschool period, while others (in the initiator role) continued to show some qualitative differences with adults.}
+@inproceedings{Agrawal2025sem,
+	author = {Agrawal, A. and Favre, B. and Fourtassi, A.},
+	title = {Identifying Repair Opportunities in Child-Caregiver Interactions},
+	year = {2025},
+	abstract = {Identifying and repairing breakdowns in communication is critical for maintaining and developing common ground between interlocutors. In the context of child-caregiver interaction (the focus of the current study), parents' repair has an important role both for scaffolding early communication and for providing a learning signal. Developmental studies have typically focused on linguistic markers of parents' repair and repair initiation (e.g., clarification request); here, we analyze such instances relative to overall repair opportunities, allowing us to quantify the extent to which parents seize repair opportunities. We analyzed a corpus of 15 child-caregiver dyads, where children were 7 to 11 years old. Using manual annotation, we identified the repair opportunities presented by the child and found that the caregivers initiated repair in only a small subset of the cases where a repair opportunity presented itself. We further tasked several large language models (LLMs) to test their capacity to recognize repair opportunities in children's utterances and found their performance to be lacking compared to human annotators. This study provides an initial exploration that is valuable both for developmental studies and for researchers aiming to improve child–machine interaction for applications such as personalized education.},
+    booktitle={Proceedings of the 29th Workshop on the Semantics and Pragmatics of Dialogue (SemDial)}
     }
     
 
     
+
+@inproceedings{Liu2025,
+	author = {Liu, Jing and Fourtassi, Abdellah},
+	title = {Benchmarking LLMs for Mimicking Child-Caregiver Language in Interaction},
+	year = {2025},
+	abstract = {Large Language Models (LLMs) can generate human-like dialogues, yet their ability to simulate early child-adult interactions remains largely unexplored. In this paper, we examined how effectively LLMs can capture the distinctive features of child-caregiver language in interaction, using both static and interactive benchmarking methods. We found that state-of-the-art LLMs like Llama 3 and GPT-4o can approximate child-caregiver dialogues at the word and utterance level, but they struggle to reproduce the child and caregiver's discursive patterns, exaggerate alignment, and fail to reach the level of diversity shown by humans. The broader goal of this work is to initiate the development of a comprehensive benchmark for LLMs in child-oriented applications.},
+    booktitle={Proceedings of the the 29th Workshop on the Semantics and Pragmatics of Dialogue (SemDial)}
+    }
+    
+  
     
 @article{Bodur2025,
 	author = {Bodur, K. and Fourtassi, A. and Fredouille, C. and Meunier, C},
 	title = {Speech Reduction in Middle Childhood: the Case of Child-Caregiver Interactions},
-	year = {under review},
+	year = {2025},
 	abstract = {Reduction, a common phenomenon in everyday speech, affects phonemes, syllables, and words across various languages and speakers. Despite its ubiquity, reduction remains underexplored, particularly in children's speech. This study addresses this gap by analyzing reduction patterns in children aged 7 and 11 during video call interactions with caregivers, focusing on both lexicalized and non-lexicalized reductions. We found that children exhibited similar patterns of lexicalized reductions to adults, based on 11 common French reduction forms, with no significant differences between the two child groups. However, reduction rates varied by specific items, with some showing high reduction ratios despite low frequency. Non-lexicalized reductions, involving more complex linguistic mechanisms, were rare among children but varied among caregivers, suggesting that children had not yet mastered these advanced forms.
-    There was no correlation between children’s and caregivers' reduction strategies, indicating that caregivers' behaviors did not directly influence children's. Additionally, articulation rates differed significantly across groups, increasing with age and correlating with higher reduction rates. These results suggest that while 7- and 11-year-olds exhibit similar language and reduction patterns, they are still developing the more sophisticated reduction mechanisms seen in adults.}
+    There was no correlation between children’s and caregivers' reduction strategies, indicating that caregivers' behaviors did not directly influence children's. Additionally, articulation rates differed significantly across groups, increasing with age and correlating with higher reduction rates. These results suggest that while 7- and 11-year-olds exhibit similar language and reduction patterns, they are still developing the more sophisticated reduction mechanisms seen in adults.},
+     journal = {First Language},
     } 
     
  
-@article{Gupta2025,
-	author = {Shreejata Gupta and Chiara Mazzocconi and Abdellah Fourtassi},
-	title = {Toward a Child-Centred, Interactive Approach to Multimodal Language Development. A commentary on Karadöller, Sümer and Özyürek},
-	year = {2025},
-	abstract = {Karadöller et al. highlight the role of multimodality in first language acquisition, emphasizing pointing and iconic gestures. While their approach advances the field, we argue that it overlooks two crucial dimensions: (1) a child-centred perspective that acknowledges the full spectrum of early multimodal signals—including body movements, facial expressions, prosody, and non-speech vocalizations—and recognises it as an integral part of, and not just precursors to, language; and (2) an interactive perspective that recognizes language development as inherently social, shaped by dynamic caregiver-infant exchanges.},
-    journal = {First Language},
-    }
-    
 @article{Agee2025,
 	author = {Laura Agee and Abdellah Fourtassi and Marie Monfils},
 	title = {Social Context as a Source of Variability in the Psychological Sciences},
@@ -119,17 +132,7 @@ References
     link = {https://direct.mit.edu/coli/article/doi/10.1162/coli_e_00539/124560/Language-Learning-Representation-and-Processing-in}
     }
     
-@article{Cabiddu2025,
-	author = {Francesco Cabiddu and Mitja Nikolaus and Abdellah Fourtassi},
-	title = {Comparing children and large language models in word sense disambiguation: Insights and challenges},
-	volume = {5},
-	year = {2025},
-	issue = {1},
-	abstract = {Understanding how children process ambiguous words is a challenge because sense disambiguation is a complex task that depends on both bottom-up and top-down cues. Here, we seek insight into this phenomenon by investigating how such a competence might arise in large distributional learners (Transformers) that purport to acquire sense representations from language input in a largely unsupervised fashion. We investigated how sense disambiguation might be achieved using model representations derived from naturalistic child-directed speech. We tested a large pool of Transformer models, varying in their pretraining input size/nature as well as the size of their parameter space. Tested across three behavioral experiments from the developmental literature, we found that these models capture some essential properties of child sense disambiguation, although most still struggle in the more challenging tasks with contrastive cues. We discuss implications for both theories of word learning and for using Transformers to study child language processing.},
-	journal = {Language Development Research},
-    link = {https://ldr.lps.library.cmu.edu/article/718/galley/586/view/},
-    repo={https://zenodo.org/records/8200803}
-}
+
 
 
 @article{Schweitzer2024,
