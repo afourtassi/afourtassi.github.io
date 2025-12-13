@@ -34,6 +34,10 @@ permalink: /publications/
 {% bibliography --query @*[year=under review] %}
 {% bibliography --query @*[year=in press] %}
 
+<center><h2 style="color:#0092ca;">2026</h2> </center>
+
+{% bibliography --query @*[year=2026] %}
+
 <center><h2 style="color:#0092ca;">2025</h2> </center>
 
 {% bibliography --query @*[year=2025] %}
