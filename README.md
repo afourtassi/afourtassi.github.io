@@ -1,3 +1,27 @@
+# Preview this website locally
+
+Double-click `preview.command` in Finder, or run it from this folder:
+
+```bash
+./preview.command
+```
+
+The launcher builds the website and opens <http://127.0.0.1:4000/> in your
+default browser. Keep the Terminal window open. Saving page, bibliography,
+template, or style changes rebuilds the preview and refreshes the browser.
+Changes to `_config.yml` require stopping and restarting the preview.
+
+Press **Control-C** in the Terminal window to stop it. Run the launcher again
+whenever you want to preview more changes. This only serves your local files;
+it does not commit, push, or deploy anything.
+
+The existing `rake preview` task previews the theme's `test/` demo, rather than
+this personal website. Use `preview.command` for your pages.
+
+If dependencies are missing on a new setup, run `bundle install` first.
+
+---
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)

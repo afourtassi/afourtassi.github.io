@@ -9,8 +9,17 @@
   padding: 5px;
   border: solid;
   text-align: left;
-  outline: none;
   font-size: 15px;
+}
+
+.collapsible {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.collapsible:focus-visible, .other:focus-visible {
+  outline: 2px solid #005a8d;
+  outline-offset: 2px;
 }
 
 .active, .other:hover, .collapsible:hover {
@@ -31,44 +40,27 @@
 
 
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    //var content = this.getElementsByClassName("content");
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
 <div id="{{key}}-materials">
     
 <ul nav>
     
 {% if entry.abstract %}
-    <a type="button1" class="collapsible" >Abstract</a>
-    <div class="content" >
+    <button type="button" class="collapsible" aria-expanded="false" aria-controls="{{key}}-abstract">Abstract</button>
+    <div id="{{key}}-abstract" class="content" >
     <p>{{entry.abstract}}</p>
     </div>
     {% endif %}
   {% if entry.link %}
     <a type="button1" class="other" href="{{entry.link}}" target="_blank" style=" color:black;text-decoration:none;">Link</a>
     {% endif %}
+    {% unless page.layout == "home" %}
     {% if entry.preprint %}
     <a type="button1" class="other" href="{{entry.preprint}}" target="_blank" style=" color:black;text-decoration:none;">Preprint</a>
     {% endif %}
     {% if entry.repo %}
     <a type="button1" class="other" href="{{entry.repo}}" target="_blank" style=" color:black;text-decoration:none;">Repo</a>
-    {% endif %} 
+    {% endif %}
+    {% endunless %}
       
 </ul>
     <p></p>
@@ -76,22 +68,19 @@ for (i = 0; i < coll.length; i++) {
 </div>
 
 <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+(function() {
+  var materials = document.currentScript.previousElementSibling;
+  var button = materials.querySelector(".collapsible");
+  if (!button) return;
+  var content = materials.querySelector(".content");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    //var content = this.getElementsByClassName("content");
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-
-      content.style.display = "block";
-    }
+  button.addEventListener("click", function() {
+    var expanded = this.getAttribute("aria-expanded") !== "true";
+    this.setAttribute("aria-expanded", String(expanded));
+    this.classList.toggle("active", expanded);
+    content.style.display = expanded ? "block" : "none";
   });
-}
+})();
 </script>
 
 

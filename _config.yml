@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "air" #"default" , "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A. Fourtassi's webpage"
+title                    : "Abdellah Fourtassi"
                             
 title_separator          : ""
 subtitle                 : #"Research on Children's Development"
 name                     : "Abdellah Fourtassi"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Abdellah Fourtassi’s research on language development, multimodal interaction, and learning in humans and machines."
+url                      : "https://afourtassi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. /assets/images/500x300.png
@@ -113,16 +113,19 @@ author:
   avatar           : "/assets/images/profile.png"
   bio              : "Researcher in Computer & Cognitive Science. I use multimodal AI to study Children's Communicative Development in Social Interactions."
   email            : #"abdellah.fourtassi@univ-amu.fr"
-  location         : Aix-Mareille University
+  location         : Aix-Marseille University
   links:
   
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:abdellah.fourtassi@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Adinseg"
-    - label: "Linkedin"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-cloud"
+      url: "https://bsky.app/profile/fourtassi.bsky.social"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.fr/citations?user=d4LZM90AAAAJ&hl=en"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/abdellah-fourtassi-9430b0ba/"
 
@@ -178,6 +181,7 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - preview.command
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test

@@ -42,7 +42,7 @@ My team and I investigate the key elements that shape how children learn languag
 <br><br>
 
 <div class="center-div">
-<img src="/assets/images/research.png" >
+<img src="/assets/images/research.png" alt="Research program illustrated by an adult naming a car for a child. Three panels highlight sensory input (word and referent co-occurrence), cognitive mechanisms (transforming multimodal input into lexical knowledge), and social interactions (communicative coordination).">
 </div>
 
 
@@ -55,7 +55,7 @@ One line of inquiry is exploring how children learn linguistic structures like s
 <br>
 {% bibliography --query @*[section=input1] %}
 
-Additionally, we examine how sensory input helps children map language onto conventional meanings. This process is complex, involving not only the recognition of visual referents like "apple" but also the inference of abstract meanings for words such as "animal," "yesterday," or 'twenty":
+Additionally, we examine how sensory input helps children map language onto conventional meanings. This process is complex, involving not only the recognition of visual referents like "apple" but also the inference of abstract meanings for words such as "animal," "yesterday," or "twenty":
 
 <br>
 
@@ -99,6 +99,6 @@ We investigate how these communication skills directly influence the effectivene
 
 <br>
 
-In conclusion, we leverage modern Machine Learning to develop theories of language development that can be tested and refined in real-world settings. This ecological approach ensures that our findings are both scientifically robust and more directly applicable. For instance, it can guide the design of educational tools and therapeutic interventions grounded in theory, which, by confronting other real-world challenges, provide critical insights for further refining those theories.
+In conclusion, we leverage modern Machine Learning to develop theories of language development that can be tested and refined in real-world settings. This ecological approach helps us assess the explanatory scope and practical relevance of our theories. For instance, it can guide the design of educational tools and therapeutic interventions grounded in theory, which, by confronting other real-world challenges, provide critical insights for further refining those theories.
 
 </div>

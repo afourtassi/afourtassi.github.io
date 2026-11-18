@@ -2,7 +2,9 @@
 layout: archive
 title: "Publications"
 author_profile: true
-classes: wide
+classes:
+  - wide
+  - publications-page
 permalink: /publications/
 ---
 
@@ -16,54 +18,51 @@ permalink: /publications/
   gtag('config', 'G-31RY8M035W');
 </script>
 
-<style>
-.center-div {
-     margin: 0 auto;
-     width: 100%;
-     text-align: justify;
-     padding: 40px;
-}
-</style>
+<div class="publications-content">
+  <section class="publication-year" aria-labelledby="publications-in-progress">
+    <h2 id="publications-in-progress">In progress</h2>
+    {% bibliography --query @*[year=under review && key!=Goumri2026] %}
+    {% bibliography --query @*[year=in press] %}
+  </section>
 
-<hr>
+  <section class="publication-year" aria-labelledby="publications-2026">
+    <h2 id="publications-2026">2026</h2>
+    {% bibliography --query @*[year=2026] %}
+  </section>
 
-<div class="center-div">
+  <section class="publication-year" aria-labelledby="publications-2025">
+    <h2 id="publications-2025">2025</h2>
+    {% bibliography --query @*[year=2025] %}
+  </section>
 
+  <section class="publication-year" aria-labelledby="publications-2024">
+    <h2 id="publications-2024">2024</h2>
+    {% bibliography --query @*[year=2024] %}
+  </section>
 
-<center><h2 style="color:#0092ca;">In progress</h2> </center>
-{% bibliography --query @*[year=under review] %}
-{% bibliography --query @*[year=in press] %}
+  <section class="publication-year" aria-labelledby="publications-2023">
+    <h2 id="publications-2023">2023</h2>
+    {% bibliography --query @*[year=2023] %}
+  </section>
 
-<center><h2 style="color:#0092ca;">2026</h2> </center>
+  <section class="publication-year" aria-labelledby="publications-2022">
+    <h2 id="publications-2022">2022</h2>
+    {% bibliography --query @*[year=2022] %}
+  </section>
 
-{% bibliography --query @*[year=2026] %}
+  <section class="publication-year" aria-labelledby="publications-2021">
+    <h2 id="publications-2021">2021</h2>
+    {% bibliography --query @*[year=2021] %}
+  </section>
 
-<center><h2 style="color:#0092ca;">2025</h2> </center>
+  <section class="publication-year" aria-labelledby="publications-2020">
+    <h2 id="publications-2020">2020</h2>
+    {% bibliography --query @*[year=2020] %}
+  </section>
 
-{% bibliography --query @*[year=2025] %}
-
-<center><h2 style="color:#0092ca;">2024</h2> </center>
-
-{% bibliography --query @*[year=2024] %}
-
-<center><h2 style="color:#0092ca;">2023</h2> </center>
-
-{% bibliography --query @*[year=2023] %}
-
-<center><h2 style="color:#0092ca;">2022</h2> </center>
-
-{% bibliography --query @*[year=2022] %}
-
-<center><h3 style="color:#0092ca;">2021</h3> </center>
-
-{% bibliography --query @*[year=2021] %}
-
-<center><h3 style="color:#0092ca;">2020</h3> </center>
-
-{% bibliography --query @*[year=2020] %}
-
-<center><h2 style="color:#0092ca;">2019 and older </h2> </center>
-
-{% bibliography --query @*[year<2020] %}
+  <section class="publication-year" aria-labelledby="publications-2019-and-older">
+    <h2 id="publications-2019-and-older">2019 and older</h2>
+    {% bibliography --query @*[year<2020] %}
+  </section>
 
 </div>
