@@ -1,103 +1,19 @@
 ---
-layout: home
-author_profile: true
-classes: wide
+layout: null
 ---
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-31RY8M035W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-31RY8M035W');
-</script>
-
-<!--
-<div class="row">
-  <div class="column left" >
-              
-  I am currently Maître de Conférences (Assistant Professor with tenure) of computer science at Aix-Marseille University.
-      </br></br>
-  I am also a research fellow at the Institute of Language, Communication and the Brain (<a href="ilcb.fr">ILCB</a>), of which I am also a member of the governing board.
-      </br></br>
-  Founder of the Computational  Communicative Development team (<a href="cocodev.fr">CoCoDev</a>), where we study children's communicative development in natural, interactive, and multimodal contexts.
-        </br></br>
-  I have a background in Mathematics and Physics (Ecole Polytechnique), Computational Cognitive Science (Ecole Normale Supérieure), and Experimental Psychology (Stanford University).
-      
-  </div>
-  <div class="column right" >
-    <div class="card" >
-    <div class="card-body">
-      <a class="twitter-timeline" data-lang="' + config.lang + '" data-height="400" href="https://twitter.com/Adinseg">Tweets by CoCoDev</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
-  </div>
-</div>
--->
-<div class="home-page">
-  <div class="home-intro">
-    <p>I am currently Maître de Conférences, HDR (equivalent to Associate Professor) in computer science at Aix-Marseille University, within the Natural Language Processing (NLP) group (<a href="https://talep.lis-lab.fr/">TALEP</a>).</p>
-    <p>I am also Deputy Director of Research at the Institute of Language, Communication and the Brain (<a href="https://www.ilcb.fr">ILCB</a>).</p>
-    <p>I am the founder of the Computational Communicative Development team (<a href="http://www.cocodev.fr">CoCoDev</a>), where we study how multimodal interaction shapes language learning in humans and machines.</p>
-    <p>I have a background in Mathematics and Physics (École Polytechnique), Computational Cognitive Science (École Normale Supérieure), and Experimental Psychology (Stanford University).</p>
-  </div>
-
-  <section class="home-section home-news">
-    <h2 id="home-news-title">Recent Updates:</h2>
-    <p id="home-news-hint" class="home-updates-hint">Scroll for more updates.</p>
-    <div class="home-updates-panel" role="region" aria-labelledby="home-news-title" aria-describedby="home-news-hint" tabindex="0">
-    <ul class="home-updates" role="list">
-      <li>I gave a keynote at the <i>LM Playschool Workshop (Improving Language Models through Learning from Dialogue Interaction)</i>, EMNLP 2026 <a href="https://lm-playschool.github.io/">(Workshop webpage)</a>.</li>
-      <li>Our team has been awarded funding from the French National Research Agency (ANR) for <i> GLAD: Grounded Language Development: A Unified Framework for Learnability Studies</i>. We will be recruiting a research engineer and a PhD candidate. Contact me for further information.</li>
-      <li>My book, <i>Language Development with Deep Learning: From Learning Theory to Computational Experiments</i>, is forthcoming with Cambridge University Press <a href="/assets/files/book_preview.pdf">(Book Preview)</a>.</li>
-      <li>I co-organized (with M. Fort and T. Hueber) the Workshop on <i>Developmental AI</i>, a joint event by GDR TAL and GDR Babylab (CNRS) in October 2026, Grenoble <a href="https://www.ultraspeech.com/devai/devai-workshop-2026/">(workshop webpage)</a>.</li>
-      <li>I gave a keynote at the <i>Child Language Symposium</i> 2026: "AI and the Question of Language Learnability" <a href="https://cls2026.netlify.app">(conference webpage)</a>.</li>
-      <li>I co-organized the 1st Workshop on
-<i>Computational Developmental Linguistics </i> at ACL 2026, San Diego <a href="https://comp-dev-ling.github.io">(workshop webpage)
-</a>.</li>
-      <li>I co-organized (with L. Prévot and P. Denis) the inaugural meeting of the <i>NLP and Cognition </i> national working group (GT in GDR TAL, CNRS). It took place in December 2025. The program is available <a href="https://docs.google.com/document/d/1PKVes0OPHQ5kJUkYroZV85sAKtKe2eSfnM1JbwBgGxw/edit?usp=sharing">here</a>.</li>
-      <li>I gave a keynote at <i>SIGDIAL</i> 2025: "The Primary Role of Dialogue in Language Development" <a href="https://2025.sigdial.org/keynotes/">(Conference webpage)</a>.</li>
-      <li>I gave a keynote at the <i>AI for Education</i> 2025 workshop (co-located with CORIA-TALN): "What Children's Learning Can Teach LLMs" <a href="https://ia-edu.lis-lab.fr/2025/index.html">(workshop webpage)</a>.</li>
-      <li>The special issue on "Language Learning, Representation, and Processing in Humans and Machines," which I co-edited with Marianna Apidianaki and Sebastian Padó, has now been published in <i>Computational Linguistics</i> (2024). <a href="https://direct.mit.edu/coli/issue/50/4">(link to the issue)</a>.</li>
-      <li>I gave an invited talk at the workshop <i>NLP in the Era of AI, Cognitive Science, and Societal Transformations</i>, organized by Mila–Quebec AI Institute: "AI for the Ecological Study of Language Development" <a href="https://www.youtube.com/watch?v=s6bkscv9xBk">(watch the video)</a>.</li>
-      <li>The special issue on "Neural and Behavioral Mechanisms of Social Learning," which I co-edited with Laura Agee and Marie Monfils, has been published in <i>Frontiers in Human Neuroscience</i>. <a href="https://www.frontiersin.org/research-topics/56307/neural-and-behavioral-mechanisms-of-social-learning">(link to the issue)</a>.</li>
-    </ul>
-    </div>
-  </section>
-
-  <section class="home-section home-publications" aria-labelledby="home-publications-title">
-    <h2 id="home-publications-title">Representative publications</h2>
-    {% bibliography --query @*[rep=yes] %}
-  </section>
-
-  <section class="home-section home-social" aria-labelledby="home-social-title">
-    <h2 id="home-social-title">Other activities and events:</h2>
-    <div class="home-social__feed">
-      <link rel="stylesheet" href="https://embedbsky.com/embedbsky.com-master-min.css" /><div id="embedbsky-com-timeline-embed"></div><script>let containerWidth='200%',containerHeight=400;const getHtml=async t=>{const e=await fetch(t);return 200!==e.status?'<p><strong>No feed data could be located</p></strong>':e.text()};document.addEventListener('DOMContentLoaded',(async()=>{const t=(new Date).toISOString(),e=document.getElementById('embedbsky-com-timeline-embed');e.style.width="100%",e.style.height=`${containerHeight}px`;const n=await getHtml(`https://embedbsky.com/feeds/1639785d5879331a15665bbe078a3c16f9814a353bf9e40b3869846443a91513.html?v=${t}`);e.innerHTML=n}));</script>
-    </div>
-  </section>
-</div>
-
-<!--
-	<div class="card" style="height:600px;width: 60%;">
-    <div class="card-body">
-  {% assign currentsorted = site.data.news %}            
-  {% for news in currentsorted %}
-    {{ news.content }}
-  {% endfor %}
- 	</div>
-      </div>
-
-    
-  <div class="card" style="height:600px; width: 30%;">
-    <div class="card-body">
-      <a class="twitter-timeline" data-lang="' + config.lang + '" data-height="550" href="https://twitter.com/Adinseg">Tweets by CoCoDev</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
--->
-
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=https://cocodev-lab.github.io/people/abdellah-fourtassi/" />
+    <link rel="canonical" href="https://cocodev-lab.github.io/people/abdellah-fourtassi/" />
+    <title>Abdellah Fourtassi</title>
+    <script>
+      window.location.replace('https://cocodev-lab.github.io/people/abdellah-fourtassi/');
+    </script>
+  </head>
+  <body>
+    <p>My personal page has moved to <a href="https://cocodev-lab.github.io/people/abdellah-fourtassi/">the CoCoDev website</a>.</p>
+  </body>
+</html>
